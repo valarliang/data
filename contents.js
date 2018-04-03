@@ -20,4 +20,4 @@ let obj={
 	}
 }
 
-let stingify=(obj)=>JSON.stringify(obj);
+let stringify=(a=obj)=>JSON.stringify(a);
